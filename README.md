@@ -18,7 +18,7 @@ An interactive one-page Power BI dashboard that analyses sales, product mix and 
 | Total Sales | **1.20M** |
 | Average Sales per item | **141** |
 | Number of items sold | **8,523** |
-| Average customer rating | **3.97 / 5** |
+| Average customer rating | **3.92 / 5** |
 
 ## Key insights
 
@@ -28,7 +28,7 @@ An interactive one-page Power BI dashboard that analyses sales, product mix and 
 - **Fruits & Vegetables and Snack Foods are the top two categories**, each at around 175–178K in sales.
 - **Medium-sized outlets contribute the most (42.3%)**, while High-size outlets contribute only 20.7%.
 - **Outlets opened in 2018 are the strongest cohort**, with about 205K in sales, roughly 50% more than any other year.
-- Ratings sit at about 4.0 in every outlet type, so customer satisfaction is consistent rather than a differentiator.
+- Ratings sit at 3.91–3.93 in every outlet type, so customer satisfaction is consistent rather than a differentiator.
 
 ## Dashboard features
 
