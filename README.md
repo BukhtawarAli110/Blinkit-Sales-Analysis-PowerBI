@@ -18,7 +18,7 @@ An interactive one-page Power BI dashboard that analyses sales, product mix and 
 | Total Sales | **1.20M** |
 | Average Sales per item | **141** |
 | Number of items sold | **8,523** |
-| Average customer rating | **3.92 / 5** |
+| Average customer rating | **3.97 / 5** |
 
 ## Key insights
 
@@ -28,7 +28,7 @@ An interactive one-page Power BI dashboard that analyses sales, product mix and 
 - **Fruits & Vegetables and Snack Foods are the top two categories**, each at around 175–178K in sales.
 - **Medium-sized outlets contribute the most (42.3%)**, while High-size outlets contribute only 20.7%.
 - **Outlets opened in 2018 are the strongest cohort**, with about 205K in sales, roughly 50% more than any other year.
-- Ratings sit at 3.91–3.93 in every outlet type, so customer satisfaction is consistent rather than a differentiator.
+- Ratings sit at 3.95–3.99 in every outlet type, so customer satisfaction is consistent rather than a differentiator.
 
 ## Dashboard features
 
@@ -44,7 +44,7 @@ An interactive one-page Power BI dashboard that analyses sales, product mix and 
 
 ## What I did
 
-1. **Data cleaning (Power Query):** standardised inconsistent *Item Fat Content* labels (`LF`, `low fat` → `Low Fat`; `reg` → `Regular`) and checked data types.
+1. **Data cleaning (Power Query):** standardised inconsistent *Item Fat Content* labels (`LF`, `low fat` → `Low Fat`; `reg` → `Regular`) and checked data types, keeping *Rating* as a decimal so averages are not rounded.
 2. **Data modelling:** built a dedicated *Key Measures* table to keep DAX measures separate from the data.
 3. **DAX measures:** Total Sales, Average Sales, No. of Items and Average Rating, plus a **field parameter** (`Metrics`) to drive the dynamic visuals.
 4. **Report design:** laid out a single 1400×800 page with a custom background, KPI icons and consistent formatting, then created a light theme variant.
